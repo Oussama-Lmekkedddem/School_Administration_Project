@@ -1,0 +1,172 @@
+.etudiant-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.etudiant-card h2 {
+    margin: 0;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-delete {
+    background-color: #FF5733;
+    color: #fff;
+}
+
+.btn-edit {
+    background-color: #3498DB;
+    color: #fff;
+}
+
+.edit-div, .delete-div {
+        display: none;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 5px;
+        margin-top: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-cancel {
+        background-color: #ccc;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .btn-confirm-delete {
+        background-color: #FF5733;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    
+    .edit-form {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Deux colonnes */
+        gap: 10px; /* Espacement entre les éléments */
+    }
+
+    .edit-form label {
+        font-weight: bold;
+    }
+
+    .edit-form input[type="text"],
+    .edit-form select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    .edit-form .btn-edit {
+        grid-column: span 2; /* Prendre toute la largeur des deux colonnes */
+        background-color: #3498DB;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.globaldivition{
+    display: flex;
+}    
+#division1{
+    flex: 1;
+}
+#division2{
+    flex: 3;
+
+}
+    #division1, #division2 {
+        background-color: white;
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border: 1px solid #ccc;
+    }
+
+    .button {
+        background-color: #3498db;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        padding: 10px 20px;
+        margin: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+        background-color: #2980b9;
+    }
+
+    .button a{
+        text-align: none;
+        color: white;
+        font-size: 14px;
+    }
+
+    #tableau {
+        max-height: 217px;
+        overflow-y: auto;
+    }
+
+    .ligne {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 5px 0;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .ligne:hover {
+        background-color: #f2f2f2;
+    }
+
+    #infosSelection {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #f2f2f2;
+        border-radius: 4px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }

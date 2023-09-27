@@ -1,0 +1,132 @@
+.section1, .section2 {
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 {
+    display: flex;
+}
+
+
+.div1, .div2, .div3, .div4 {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.div1 {
+    display: flex;
+}
+
+.div11 {
+    width: calc(100% - 20px);
+}
+
+.div12 {
+    flex: 1;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+.div12 .button {
+    margin-top: 10px;
+}
+
+.div2 {
+    display: none;
+}
+
+.section1.active .div2 {
+    display: block;
+}
+
+
+.div3, .div4 {
+    flex: 1;
+}
+
+
+
+
+.edit-div, .delete-div {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-cancel {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-confirm-delete {
+    background-color: #FF5733;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.edit-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Deux colonnes */
+    gap: 10px; /* Espacement entre les éléments */
+}
+
+.edit-form label {
+    font-weight: bold;
+}
+
+.edit-form input[type="text"],
+.edit-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.edit-form .btn-edit {
+    grid-column: span 2; /* Prendre toute la largeur des deux colonnes */
+    background-color: #3498DB;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}

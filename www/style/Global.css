@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0e9e9;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.aside1{
+    width: 250px;
+    background-color: blueviolet;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.3);
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-image: linear-gradient(rgb(49, 33, 72),rgba(111, 96, 148, 0.767)),url(/image/sidebar-2.jpg);
+    background-size:cover;
+    background-position:60%;
+}
+.imgAccueil{
+    background-image:url(/image/menu.png);
+    background-size:cover;
+}
+.imgListes_etudiants{
+    background-image:url(/image/9882858.png);
+    background-size:cover;
+}
+.imgListes_professeurs{
+    background-image:url(/image/driving-instructor.png);
+    background-size:cover;
+}
+.imgFormation{
+    background-image:url(/image/training.png);
+    background-size:cover;
+}
+.imgGroupes{
+    background-image:url(/image/laptop.png);
+    background-size:cover;
+}
+.imgReservations{
+    background-image:url(/image/calendar.png);
+    background-size:cover;
+}
+.imgNotifications{
+    background-image:url(/image/notification-bell.png);
+    background-size:cover;
+}
+
+
+.aside2{
+    flex: 1;
+    overflow-y: auto;
+    margin-left: 250px;
+}
+.aside1 .logo{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.432);
+    font-style: oblique;
+}
+.aside1 .linebar{
+    height: 0.2px;
+    width: 90%;
+    margin: 5% 0 0 5%;
+    background-color: rgba(255, 255, 255, 0.442);
+}
+.aside1 .nabar{
+    margin-left: 6%;
+}
+.nabar ul li{
+    list-style: none;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: -18%;
+    margin-right: 6%;
+    border-radius: 5px 5px;
+    display: flex;
+}
+.nabar ul li:hover{
+    background-color: rgba(255, 255, 255, 0.281);
+}
+.nabar ul li div,.nabar ul li a{
+    display: inline-block;
+}
+.nabar ul li div{
+    width: 25px;
+    height: 25px;
+    margin-left: 30px;
+    margin-top :12px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.nabar ul li a{
+    margin-left: 15px;
+    text-decoration-line: none;
+    color: rgba(255, 255, 255, 0.562);
+    font-size: 15px;
+    margin-top: 15px;
+    font-style:italic;
+}

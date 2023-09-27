@@ -1,0 +1,135 @@
+.aside2{
+    display: flex;
+}
+.firstdiv {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+.secondediv{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.chaild1, .chaild2 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+
+
+
+
+.buttons-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+  .content {
+    display: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .content.active {
+    display: block;
+  }
+
+
+
+
+  
+
+.div3 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px auto;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .student-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+  }
+  
+  .student-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .student-form input,
+  .student-form select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .student-form .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .student-form .submit-button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+
+
+  #div5 .form-group, #div6 .form-group  {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#div5 .form-group label, #div6 .form-group label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+#div5 .form-control, #div6 .form-control {
+    flex: 2;
+}
